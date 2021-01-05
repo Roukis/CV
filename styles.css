@@ -94,7 +94,7 @@ hr{
 }
 .mountain{
   width:777px;
-  -webkit-animation:fadein 5s;
+  -webkit-animation:fadein 4s;
 }
 
 @-webkit-keyframes fadein {
