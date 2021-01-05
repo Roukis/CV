@@ -42,14 +42,14 @@ h3{
   text-decoration: underline;
 }
 .top-cloud{
-  left:1300px;
+  left:60%;
   top:5px;
   animation-timing-function: ease;
   position: absolute;
   animation: mymoveTop 3.5s;
 }
 .bottom-cloud{
-  right:1300px;
+  right:60%;
   top:200px;
   position:absolute;
   animation: mymoveBottom 3.5s ;
@@ -57,11 +57,11 @@ h3{
 
 @keyframes mymoveTop {
   from {left: 0;}
-  to {left: 1300px;}
+  to {left: 60%;}
 }
 @keyframes mymoveBottom {
   from {right: 0;}
-  to {right: 1300px;}
+  to {right: 60%;}
 }
 
 .firstImage{
