@@ -1,6 +1,7 @@
 body{
   margin:0;
   text-align:center;
+  font-size: 140%;
   font-family: "Merriweather", sans-serif;
 }
 h1{
@@ -8,35 +9,51 @@ h1{
   font-family: "Sacramento", cursive;
 }
 h2{
+  margin-top: 0;
   font-family: "Montserrat", sans-serif;
 }
 h3{
   font-family: "Montserrat", sans-serif;
   margin:0;
 }
-
+#aProgrammer{
+  margin:0;
+}
 
 .top-container{
-  background-color:#E4F9F5;
+  background-color: blue;
   position:relative; /*we want the clouds to be relative to their parent, so instead of putting them relative to the body we put them relative to thei r div container*/
   padding-top:100px;
 }
 .bottom-container{
   margin:0;
+  font-size: 80%;
 }
 
 
 .profile{
   margin-bottom: 40px;
+    background-color:#E4F9F5;
 }
 .education-row{
   margin-top: 10px;
+}
+.education{
+  background-color:#E4F9F5;
+}
+.skills{
+  background-color:#E4F9F5;
+}
+.myHobbies{
+  background-color:#E4F9F5;
 }
 .hobbies-row{
   margin-top: 10px;
 }
 .contact-me{
   margin:0;
+  background-color:#f4f4f4;
+  font-size: 70%;
 }
 .pro{
   text-decoration: underline;
@@ -46,13 +63,14 @@ h3{
   top:5px;
   animation-timing-function: ease;
   position: absolute;
-  animation: mymoveTop 3.5s;
+  animation: mymoveTop 4.5s;
 }
 .bottom-cloud{
   right:60%;
   top:200px;
+  animation-timing-function: ease;
   position:absolute;
-  animation: mymoveBottom 3.5s ;
+  animation: mymoveBottom 4.5s ;
 }
 
 @keyframes mymoveTop {
