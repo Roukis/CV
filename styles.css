@@ -68,7 +68,7 @@ hr{
 }
 
 .contact-me {
-  padding: 50px;
+  padding: 20px 50px 70px 50px;
   background-color: #f4f4f4;
   font-size: 70%;
 }
@@ -81,14 +81,14 @@ hr{
   left: 60%;
   top: 5px;
   bottom: 10px;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   position: absolute;
   animation: mymoveTop 4.5s;
 }
 .bottom-cloud {
   right: 60%;
   top: 200px;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   position: absolute;
   animation: mymoveBottom 4.5s;
 }
@@ -96,10 +96,23 @@ hr{
   width:777px;
   -webkit-animation:fadein 2.5s;
 }
+.sun{
+  position:absolute;
+  width:77px;
+  bottom: 80%;
+  opacity:0;
+  animation: delayedMove 2s forwards;
+  animation-timing-function: ease;
+  animation-delay: 2.6s;
+}
 
 @-webkit-keyframes fadein {
 from {opacity:0;}
 to {opacity:1;}
+}
+@keyframes delayedMove {
+  from {opacity:0; bottom: 0;}
+  to {opacity:1; bottom: 80%;}
 }
 @keyframes mymoveTop {
   from {left: 0;}
@@ -133,7 +146,12 @@ to {opacity:1;}
 
 .btn {
   position: absolute;
-  right:45.5%;
+  margin: auto;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
