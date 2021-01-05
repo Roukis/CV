@@ -99,6 +99,7 @@ hr{
 .sun{
   position:absolute;
   width:77px;
+  left:32%;
   bottom: 80%;
   opacity:0;
   animation: delayedMove 2s forwards;
