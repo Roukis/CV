@@ -6,7 +6,8 @@ body{
 }
 h1{
   margin:0 auto 0 auto;
-  font-family: "Sacramento", cursive;
+  color: #fdb827;
+  font-family: "Times", cursive;
 }
 h2{
   margin-top: 0;
@@ -18,18 +19,20 @@ h3{
 }
 #aProgrammer{
   margin:0;
+    color: limegreen;
+    font-size: 30px;
+  font-family: "Times", cursive;
 }
 
 .top-container{
   background-color: blue;
   position:relative; /*we want the clouds to be relative to their parent, so instead of putting them relative to the body we put them relative to thei r div container*/
-  padding-top:100px;
+  padding-top:70px;
 }
 .bottom-container{
   margin:0;
-  font-size: 80%;
+  font-size: 65%;
 }
-
 
 .profile{
   margin-bottom: 40px;
@@ -61,6 +64,7 @@ h3{
 .top-cloud{
   left:60%;
   top:5px;
+  bottom: 10px;
   animation-timing-function: ease;
   position: absolute;
   animation: mymoveTop 4.5s;
