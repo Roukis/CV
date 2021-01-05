@@ -42,21 +42,33 @@ h3{
   text-decoration: underline;
 }
 .top-cloud{
-  position:absolute;
-  right:250px;
-  top:50px;
+  left:1300px;
+  top:5px;
+  animation-timing-function: ease;
+  position: absolute;
+  animation: mymoveTop 3.5s;
 }
 .bottom-cloud{
+  right:1300px;
+  top:200px;
   position:absolute;
-  left:250px;
-  bottom:300px;
+  animation: mymoveBottom 3.5s ;
 }
 
+@keyframes mymoveTop {
+  from {left: 0;}
+  to {left: 1300px;}
+}
+@keyframes mymoveBottom {
+  from {right: 0;}
+  to {right: 1300px;}
+}
 
 .firstImage{
-  width: 144px;
-  height: 183px;
-  border-radius: 15%;
+  width: 190px;
+  height: 220px;
+  border-radius: 100%;
+  padding-top: 30px;
 }
 .secondImage{
   height: 110px;
