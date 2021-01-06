@@ -20,6 +20,9 @@ h3 {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
+h4{
+  font-weight:595;
+}
 hr{
   border:dashed;
   color: grey;
