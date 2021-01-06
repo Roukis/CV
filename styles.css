@@ -102,13 +102,13 @@ hr{
 }
 .sun{
   position:absolute;
-  left:32%;
+  left: 27%;
   width:77px;
   bottom: 80%;
   opacity:0;
   animation: delayedMove 2s forwards;
   animation-timing-function: ease;
-  animation-delay: 2.6s;
+  animation-delay: 2.5s;
 }
 
 @-webkit-keyframes fadein {
